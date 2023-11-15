@@ -2,6 +2,10 @@ from unittest import TestCase as Case, main
 from Testing.List.extended_list import IntegerList
 
 
+# testing the methods was done using the method get_data() (line 17)
+# w/o this method we can use self.il._IntegerList__data, because __data is a private attribute
+# (example line 18) !!!
+
 class TestList(Case):
 
     def setUp(self):
@@ -11,6 +15,7 @@ class TestList(Case):
 
     def test_if_proper_init(self):
         self.assertEqual(self.il.get_data(), [1, 2])
+        # self.assertEqual(self.il._IntegerList__data, [1, 2])
 
     def test_add_element_to_list_if_not_int_raises(self):
         # part 1
