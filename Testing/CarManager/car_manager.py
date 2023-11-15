@@ -4,7 +4,7 @@ class Car:
         self.model = model
         self.fuel_consumption = fuel_consumption
         self.fuel_capacity = fuel_capacity
-        self.fuel_amount = 80
+        self.fuel_amount = 0
 
     @property
     def make(self):
@@ -70,8 +70,3 @@ class Car:
             raise Exception("You don't have enough fuel to drive!")
 
         self.__fuel_amount -= needed
-
-
-car = Car("Audi", "A6", 8, 80)
-# car.make = ""
-print(car)
