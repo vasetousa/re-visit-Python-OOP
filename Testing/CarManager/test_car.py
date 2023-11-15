@@ -105,7 +105,7 @@ class TestCar(Test):
     def test_drive_with_enough_fuel_sets_proper_fuel_amount(self):
         self.car.fuel_amount = 40
         self.car.drive(500)
-        self.assertNotEqual(self.car.fuel_amount, 40)
+        self.assertLess(self.car.fuel_amount, 40)
 
 
 if __name__ == '__main__':
