@@ -9,7 +9,7 @@ class TestList(Case):
         self.il = IntegerList(*self.data_list)
         self.index_len = len(self.il.get_data())
 
-    def test_if_init(self):
+    def test_if_proper_init(self):
         self.assertEqual(self.il.get_data(), [1, 2])
 
     def test_add_element_to_list_if_not_int_raises(self):
