@@ -2,7 +2,7 @@ from unittest import TestCase as Test, main
 from Testing.CarManager.car_manager import Car
 
 
-class TestCat(Test):
+class TestCar(Test):
     def setUp(self):
         self.car = Car("Mercedes", 'E350', 6, 80)
         self.current_fuel = self.car.fuel_amount
