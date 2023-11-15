@@ -59,9 +59,17 @@ class TestList(Case):
         self.il.insert(1, 100)
         self.assertEqual(self.il.get_data(), [1, 100, 2])
 
+    def test_get_biggest_element(self):
+        self.il.insert(1, 100)
+        self.assertEqual(self.il.get_data(), [1, 100, 2])
 
+        self.assertEqual(self.il.get_biggest(), 100)
 
-
+    def test_get_index(self):
+        self.assertEqual(self.il.get_data(), [1, 2])
+        # check if element (1) is at index (0)
+        self.assertEqual(self.il.get_index(1), 0)
+        self.assertEqual(self.il.get_index(2), 1)
 
 
 if __name__ == '__main__':
