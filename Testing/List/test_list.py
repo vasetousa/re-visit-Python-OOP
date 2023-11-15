@@ -23,7 +23,7 @@ class TestList(Case):
             self.il.add('Peter')
         self.assertEqual(str(ve.exception), 'Element is not Integer')
         # part 2
-        self.assertNotEqual(self.il.get_data(), [1, 2, 100])
+        self.assertEqual(self.il.get_data(), [1, 2])
         self.il.add(100)
         self.assertEqual(self.il.get_data(), [1, 2, 100])
 
