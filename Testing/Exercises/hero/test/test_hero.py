@@ -1,9 +1,11 @@
 import unittest
-from Testing.Exercises.hero.project.hero import Hero
+
+from project.hero import Hero
 
 
 class TestHero(unittest.TestCase):
     def setUp(self):
+
         self.hero = Hero('Tron', 10, 200, 100)
         self.strong_hero = Hero('Tron', 11, 1000000, 1000)
         self.enemy_hero = Hero('Hulk', 10, 300, 150)
