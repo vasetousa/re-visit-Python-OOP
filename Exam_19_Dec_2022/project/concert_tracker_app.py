@@ -67,7 +67,7 @@ class ConcertTrackerApp:
             c_musician = current_musician[0]
         else:
             raise Exception(f"{musician_name} isn't a member of {band_name}!")
-        c_band.self.members.pop(musician_name)
+        c_band.members.remove(c_musician)
         return f"{musician_name} was removed from {band_name}."
 
     def create_band(self, name: str):
@@ -118,6 +118,7 @@ class ConcertTrackerApp:
         rock_dic = ConcertTrackerApp.VALID_CONCERT_SKILLS['Rock']
         metal_dic = ConcertTrackerApp.VALID_CONCERT_SKILLS['Metal']
         jazz_dic = ConcertTrackerApp.VALID_CONCERT_SKILLS['Jazz']
+
         ''' check if the group can play at a Rock, Metal or Jazz concert'''
         for member in members:
             member_type = type(member).__name__
@@ -129,7 +130,9 @@ class ConcertTrackerApp:
                 jazz_counter += 1
 
         results = {'Rock': rock_counter, 'Metal': metal_counter, 'Jazz': jazz_counter}
-        current_concert = [con for con in self.concerts if con.place == concert_place][0]
+        current_concert = [con for con in self.concerts if con.place == concert_place]
+        if current_concert:
+            current_concert = current_concert[0]
         if results[current_concert.genre] < len(valid_band_with_members.members):
             raise Exception(f"The {band_name} band is not ready to play at the concert!")
         profit = (current_concert.audience * current_concert.ticket_price) - current_concert.expenses

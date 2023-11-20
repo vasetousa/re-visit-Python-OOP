@@ -1,8 +1,5 @@
 from concert_tracker_app import ConcertTrackerApp
 
-
-
-
 if __name__ == '__main__':
 
     musician_types = ["Singer", "Drummer", "Guitarist"]
@@ -16,8 +13,6 @@ if __name__ == '__main__':
     print(app.musicians[0].learn_new_skill("sing high pitch notes"))
     print(app.musicians[1].learn_new_skill("play the drums with drumsticks"))
     print(app.musicians[2].learn_new_skill("play rock"))
-
-    # app.create_musician()
 
     print(app.create_band("RockName"))
 
