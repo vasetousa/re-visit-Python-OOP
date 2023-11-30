@@ -96,14 +96,14 @@ class Tournament:
         if str(team1.__class__.__name__) != str(team2.__class__.__name__):
             raise Exception('Game cannot start! Team types mismatch!')
         eq1 = 0
+        eq2 = 0
         for el1 in team1.equipment:
             eq1 += el1.protection
-        eq2 = 0
         for el2 in team2.equipment:
             eq2 += el2.protection
-
         points1 = team1.advantage + eq1
         points2 = team2.advantage + eq2
+
         if points1 > points2:
             team1.win()
             return f"The winner is {team_name1}."
@@ -117,3 +117,25 @@ class Tournament:
         teams = [te.get_statistics() for te in self.teams]
 
         return f'Tournament: {self.name}\nNumber of Teams: {len(self.teams)}\nTeams:\n{"\n".join(teams)}\n'
+
+
+t = Tournament('SoftUniada2023', 2)
+
+print(t.add_equipment('KneePad'))
+print(t.add_equipment('ElbowPad'))
+
+print(t.add_team('OutdoorTeam', 'Levski', 'BG', 250))
+print(t.add_team('OutdoorTeam', 'Spartak', 'BG', 250))
+print(t.add_team('IndoorTeam', 'Dobrich', 'BG', 280))
+
+print(t.sell_equipment('KneePad', 'Spartak'))
+
+print(t.remove_team('Levski'))
+print(t.add_team('OutdoorTeam', 'Lokomotiv', 'BG', 250))
+
+print(t.increase_equipment_price('ElbowPad'))
+print(t.increase_equipment_price('KneePad'))
+
+print(t.play('Lokomotiv', 'Spartak'))
+
+print(t.get_statistics())
