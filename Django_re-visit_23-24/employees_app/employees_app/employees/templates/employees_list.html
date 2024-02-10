@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+    <hr>
+    <form method="GET" action="{% url 'employees list' %}">
+        {% csrf_token %}
+        {{ employees_order_form }}
+        <button>Order</button>
+    </form>
+
+    <hr>
+    <h3>Current employees:</h3>
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Company</th>
+            <th scope="col">Job Title</th>
+            <th scope="col">Action</th>
+
+        </tr>
+        </thead>
+        <tbody>
+
+        {% for em in employees %}
+            <tr>
+
+                <td>{{ em.first_name }}</td>
+
+                <td>{{ em.last_name }}</td>
+                <td>{{ em.company }}</td>
+                <td>{{ em.job_title }}</td>
+                <td><a href="{% url 'edit employee' em.pk %}">Edit</a></td>
+            </tr>
+
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    </body>
+    </html>
+
+{% endblock %}

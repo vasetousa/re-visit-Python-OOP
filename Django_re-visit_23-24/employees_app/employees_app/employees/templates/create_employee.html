@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+    <hr>
+    <h1>Create employee</h1>
+
+
+    <form method="POST" action="{% url 'create employee' %}">
+        {% csrf_token %}
+        {{ employee_form }}
+        <button>Save</button>
+    </form>
+
+
+{% endblock %}
