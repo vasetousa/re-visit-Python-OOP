@@ -1,5 +1,7 @@
 import datetime
 
+from django import forms
+from django.forms.widgets import SelectDateWidget
 from django.core.validators import MinLengthValidator
 from django.db import models
 
@@ -41,6 +43,9 @@ class Profile(models.Model):
     date_of_birth = models.DateField(
         null=True, blank=True,
     )
+    # date_of_birth = forms.DateField(
+    #     widget=SelectDateWidget()
+    # )
 
     description = models.TextField(
         null=True, blank=True,
@@ -54,6 +59,7 @@ class Profile(models.Model):
         max_length=MAX_LENGTH,
         choices=GENDERS,
         null=True, blank=True,
+        default=NO_SHOW,
     )
 
     def __str__(self):
@@ -109,6 +115,7 @@ class PetPhoto(models.Model):
 
     # max photo size 5MB
     photo = models.ImageField(
+        max_length=250,
         validators=(
             validate_file_max_size_in_mb(MAX_SIZE),
         )

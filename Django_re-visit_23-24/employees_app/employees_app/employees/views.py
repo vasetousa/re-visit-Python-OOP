@@ -1,3 +1,5 @@
+from datetime import date
+
 from django import forms
 from django.core.exceptions import ValidationError
 from django.shortcuts import render, redirect
@@ -40,6 +42,13 @@ def validate_negative_age(age):
 #     )
 
 
+class UserProfileForm(forms.Form):
+    date_of_birth = forms.DateField(
+        widget=forms.DateInput(),
+        initial=date(1990, 1, 1)  # Setting initial value to January 1, 1990
+    )
+
+
 class EmployeeFormBase(forms.ModelForm):
     class Meta:
         model = Employee
@@ -50,9 +59,20 @@ class CreateEmployeeFormBase(EmployeeFormBase):
     # age = forms.IntegerField(
     #     validators=[validate_negative_age, ]
     # )
+    # date_of_birth = forms.DateField(
+    #     widget=forms.DateInput(),
+    #     initial=date(
+    #         1990, 1, 1
+    #     ),  # Setting initial value to January 1, 1990
+    #
+    # )
+
+    date_of_birth = forms.DateField(widget=forms.DateInput(attrs={'type': 'date'}))
+
     class Meta:
         model = Employee
         fields = '__all__'
+
         # widgets = {
         #     'first_name': forms.TextInput(
         #         attrs={'class': 'form-control', }   # to make the field longer
@@ -68,7 +88,7 @@ class EditEmployeeFormBase(EmployeeFormBase):
         fields = '__all__'
         widgets = {
             'egn': forms.TextInput(
-                attrs={'disabled': 'disabled'},
+                attrs={'readonly': 'readonly'},
             )
         }
 
@@ -93,15 +113,18 @@ def home(request):
 def create_employee(request):
     if request.method == 'POST':
         employee_form = CreateEmployeeFormBase(request.POST)
+        test_form = UserProfileForm
         if employee_form.is_valid():
             employee_form.save()
 
             return redirect('home')
     else:
         employee_form = CreateEmployeeFormBase()
+        test_form = UserProfileForm()
 
     context = {
         'employee_form': employee_form,
+        'test_form': test_form,
     }
     return render(request, 'create_employee.html', context)
 

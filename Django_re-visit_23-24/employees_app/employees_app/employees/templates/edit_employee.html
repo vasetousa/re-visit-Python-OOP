@@ -8,7 +8,7 @@
 
     <form method="POST" action="{% url 'edit employee' employee.pk %}">
         {% csrf_token %}
-        {{ employee_form }}
+        {{ employee_form.as_p }}
         <button>Edit</button>
     </form>
 

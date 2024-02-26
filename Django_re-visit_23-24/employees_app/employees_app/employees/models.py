@@ -1,3 +1,6 @@
+import datetime
+
+from django import forms
 from django.db import models
 
 # Create your models here.
@@ -44,7 +47,12 @@ class Employee(models.Model):
         default='**********'
     )
 
-    email = models.EmailField()
+    date_of_birth = models.DateField()
+
+    email = models.EmailField(
+        null=True,
+        blank=True,
+    )
 
     job_title = models.IntegerField(
         choices=(
