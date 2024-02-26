@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49a4b539-cf8e-4150-8860-74cca1cd1ce3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/project/test.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure3/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/project/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure3/project/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/project/test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure3/project/test/test_truck_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/project/test/test_truck_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure3/project/truck_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/project/truck_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truck_driver.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2YP0I8OvzXrhr9QT8ozbPHzB8Qg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vasil\Python_2023\Exam_19_Dec_2022\project" />
+      <recent name="C:\Users\Vasil\Python_2023\Exam_19_Dec_2022" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in test_truck_driver.py">
+    <configuration name="Python tests for test_truck_driver.TestTruckDriver" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Exam_19_Dec_2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/project/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_truck_driver.TestTruckDriver&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_truck_driver.TestTruckDriver.test_repair_truck" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Exam_19_Dec_2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/project/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_truck_driver.TestTruckDriver.test_repair_truck&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_truck_driver.TestTruckDriver.test_repr" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Exam_19_Dec_2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/project/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_truck_driver.TestTruckDriver.test_repr&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_truck_driver.TestTruckDriver.test_repr_" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Exam_19_Dec_2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/project/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_truck_driver.TestTruckDriver.test_repr_&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_truck_driver.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Exam_19_Dec_2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/project/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/project/test/test_truck_driver.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test_truck_driver.py" />
+        <item itemvalue="Python tests.Python tests for test_truck_driver.TestTruckDriver.test_repr" />
+        <item itemvalue="Python tests.Python tests for test_truck_driver.TestTruckDriver.test_repr_" />
+        <item itemvalue="Python tests.Python tests for test_truck_driver.TestTruckDriver.test_repair_truck" />
+        <item itemvalue="Python tests.Python tests for test_truck_driver.TestTruckDriver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49a4b539-cf8e-4150-8860-74cca1cd1ce3" name="Changes" comment="" />
+      <created>1700411825070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700411825070</updated>
+      <workItem from="1700411827678" duration="11963000" />
+      <workItem from="1700424700824" duration="6524000" />
+      <workItem from="1700431703685" duration="1130000" />
+      <workItem from="1700440519499" duration="4783000" />
+      <workItem from="1700487704639" duration="4847000" />
+      <workItem from="1700492695155" duration="4882000" />
+      <workItem from="1700521756704" duration="292000" />
+      <workItem from="1700652446092" duration="10714000" />
+      <workItem from="1700666120467" duration="51000" />
+    </task>
+    <task id="LOCAL-00001" summary="project added">
+      <option name="closed" value="true" />
+      <created>1700492286241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700492286241</updated>
+    </task>
+    <task id="LOCAL-00002" summary="deleted test">
+      <option name="closed" value="true" />
+      <created>1700492422611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700492422611</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed an error when removing a member, will change code further">
+      <option name="closed" value="true" />
+      <created>1700495354246</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700495354246</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added a check fro band name">
+      <option name="closed" value="true" />
+      <created>1700497390646</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700497390646</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="project added" />
+    <MESSAGE value="deleted test" />
+    <MESSAGE value="fixed an error when removing a member, will change code further" />
+    <MESSAGE value="added a check fro band name" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a check fro band name" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="self" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Exam_19_Dec_2022$musician.coverage" NAME="musician Coverage Results" MODIFIED="1700413924881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure1/project/band_members" />
+    <SUITE FILE_PATH="coverage/Exam_19_Dec_2022$truck_driver.coverage" NAME="truck_driver Coverage Results" MODIFIED="1700657128763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/project" />
+    <SUITE FILE_PATH="coverage/Exam_19_Dec_2022$main.coverage" NAME="main Coverage Results" MODIFIED="1700656702014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Exam_19_Dec_2022$concert_tracker_app.coverage" NAME="concert_tracker_app Coverage Results" MODIFIED="1700425287165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
+    <SUITE FILE_PATH="coverage/Exam_19_Dec_2022$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1700497339388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
+    <SUITE FILE_PATH="coverage/Exam_19_Dec_2022$singer.coverage" NAME="singer Coverage Results" MODIFIED="1700416892953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure1/project/band_members" />
+    <SUITE FILE_PATH="coverage/Exam_19_Dec_2022$.coverage" NAME=" Coverage Results" MODIFIED="1700665693649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/project/test" />
+    <SUITE FILE_PATH="coverage/Exam_19_Dec_2022$test_truck_driver.coverage" NAME="test_truck_driver Coverage Results" MODIFIED="1700659944401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/Rar$DIa149372.5186" />
+  </component>
+</project>
