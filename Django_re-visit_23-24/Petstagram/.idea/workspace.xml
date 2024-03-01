@@ -4,81 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eafe866e-5b49-4758-b3e5-eb621bfffc81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Petstagram.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/.idea/petstagram.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/cat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/cat_and_bunny.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/cat_xPJMguo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/dog.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/koko.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/maggie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/other_cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/migrations/0002_pet_delete_pets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/migrations/0003_pet_user_profile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/migrations/0004_alter_pet_unique_together.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/migrations/0005_petphotos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/migrations/0006_alter_petphotos_photo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/migrations/0007_petphoto_delete_petphotos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/templates/main_app/401_error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/templates/main_app/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/templates/main_app/home_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/templates/main_app/photo_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/templates/main_app/profile_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/templatetags/profiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/petstagram/main_app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petstagram/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/migrations/0002_car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/migrations/0003_department.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/migrations/0004_delete_car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/migrations/0005_employee_address.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/migrations/0006_employee_department.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/migrations/0007_project.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/migrations/0008_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/migrations/0009_remove_user_id_alter_user_employee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/migrations/0010_alter_employee_egn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/templates/create_employee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/templates/edit_employee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/templates/employees_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/templatetags/departments_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/log.django" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/staticfiles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/templates/departments_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/templates/log_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employees_app/templates/tags/departmentss_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employees_app/.idea/employees_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../employees_app/.idea/employees_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employees_app/employees_app/employees/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employees_app/employees_app/employees/employees_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employees_app/employees_app/employees/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employees_app/employees_app/employees/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../employees_app/employees_app/employees/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employees_app/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../employees_app/templates/home.html" afterDir="false" />
+    <list default="true" id="eafe866e-5b49-4758-b3e5-eb621bfffc81" name="Changes" comment="finished project, function based views">
+      <change beforePath="$PROJECT_DIR$/../Class_based_views_project/django101/django101/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Class_based_views_project/django101/django101/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class_based_views_project/django101/django101/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Class_based_views_project/django101/django101/web/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +18,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "vasetousa"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8442f132-8981-44b8-b999-6630bcdd2692" />
+        <option name="url" value="https://github.com/vasetousa/re-visit-Python-OOP" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -108,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Vasil/Python_2023/Django_re-visit_23-24/Petstagram/petstagram",
+    "last_opened_file_path": "C:/Users/Vasil/Python_2023/Django_re-visit_23-24/Petstagram",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -163,11 +105,33 @@
       <updated>1707577078876</updated>
       <workItem from="1707577079925" duration="351000" />
       <workItem from="1707577659751" duration="104000" />
+      <workItem from="1708988811895" duration="725000" />
     </task>
+    <task id="LOCAL-00001" summary="finished project, function based views">
+      <option name="closed" value="true" />
+      <created>1708988838647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708988838647</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finished project, function based views">
+      <option name="closed" value="true" />
+      <created>1708988866018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708988866018</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished project, function based views" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished project, function based views" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Petstagram$settings.coverage" NAME="settings Coverage Results" MODIFIED="1707577306023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petstagram/petstagram" />
