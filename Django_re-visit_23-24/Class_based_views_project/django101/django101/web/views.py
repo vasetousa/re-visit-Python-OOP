@@ -7,6 +7,11 @@ from django101.web.models import Todo
 
 
 # Create your views here.
+
+def contacts(request):
+    return render(request, 'contact.html')
+
+
 def show_index(request):
     context = {
         'title': 'Func based views'

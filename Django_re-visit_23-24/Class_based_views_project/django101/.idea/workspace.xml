@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c526cc56-5e17-4e18-a35e-a8175398e3f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/django101/web/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django101/web/migrations/0002_alter_category_options_alter_todo_options.py" afterDir="false" />
+    <list default="true" id="c526cc56-5e17-4e18-a35e-a8175398e3f9" name="Changes" comment="CBV">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django101/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django101/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django101/web/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/django101/web/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django101/web/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/django101/web/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django101/web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django101/web/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django101/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django101/web/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Petstagram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Petstagram/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -42,27 +36,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.django101.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "last_opened_file_path": "C:/Users/Vasil/Python_2023/Django_re-visit_23-24/Petstagram",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.django101.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vasil/Python_2023/Django_re-visit_23-24/Petstagram&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Vasil\Python_2023\Django_re-visit_23-24\Class_based_views_project\django101" />
       <recent name="C:\Users\Vasil\Python_2023\Django_re-visit_23-24\Class_based_views_project\django101\django101" />
+      <recent name="C:\Users\Vasil\Python_2023\Django_re-visit_23-24\Class_based_views_project\django101" />
+      <recent name="C:\Users\Vasil\Python_2023\Django_re-visit_23-24\Class_based_views_project\django101\django101\web\templates" />
       <recent name="C:\Users\Vasil\Python_2023\Django_re-visit_23-24\Class_based_views_project\django101\django101\web" />
     </key>
   </component>
@@ -112,11 +107,39 @@
       <workItem from="1708989582587" duration="904000" />
       <workItem from="1709035885429" duration="7053000" />
       <workItem from="1709122896121" duration="3516000" />
-      <workItem from="1709301901301" duration="4921000" />
+      <workItem from="1709301901301" duration="6750000" />
+      <workItem from="1709310384908" duration="2849000" />
+      <workItem from="1709388815731" duration="5326000" />
+      <workItem from="1709413242848" duration="2179000" />
+      <workItem from="1709471600381" duration="72000" />
     </task>
+    <task id="LOCAL-00001" summary="CBV">
+      <option name="closed" value="true" />
+      <created>1709308553259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709308553259</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CBV" />
+    <option name="LAST_COMMIT_MESSAGE" value="CBV" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django101/otg_views.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

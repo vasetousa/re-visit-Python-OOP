@@ -1,7 +1,8 @@
 from django.urls import path
 
+from django101.otg_views import EmailSendView
 from django101.web.views import IndexView, show_index, TodosListView, TodosDetailView, TodosCreateView, TodosUpdateView, \
-    TodosDeleteView
+    TodosDeleteView, contacts
 
 urlpatterns = (
     path('cbv/', IndexView.as_view(), name='IndexView'),
@@ -11,4 +12,6 @@ urlpatterns = (
     path('todos/create/', TodosCreateView.as_view(), name='todo create'),
     path('todos/update/<int:pk>/', TodosUpdateView.as_view(), name='todo update'),
     path('todos/delete/<int:pk>/', TodosDeleteView.as_view(), name='todo delete'),
+    path('contacts/', contacts, name='contacts'),
+    path('send-email/', EmailSendView.as_view(), name='send_email'),
 )

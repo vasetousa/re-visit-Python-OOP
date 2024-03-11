@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="db" uuid="e887e66c-404a-4241-8bd1-67b529dc92b0">
-      <driver-ref>sqlite.xerial</driver-ref>
+      <driver-ref>4b8554d8-378c-478e-a2cc-749669629ecb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\Vasil\Python_2023\Django_re-visit_23-24\Petstagram\petstagram\db.sqlite3</jdbc-url>

@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eafe866e-5b49-4758-b3e5-eb621bfffc81" name="Changes" comment="finished project, function based views">
-      <change beforePath="$PROJECT_DIR$/../Class_based_views_project/django101/django101/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Class_based_views_project/django101/django101/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_based_views_project/django101/.idea/django101.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tasks/.idea/Tasks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django101/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django101/django101/tasks/migrations/0003_delete_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class_based_views_project/django101/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Class_based_views_project/django101/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class_based_views_project/django101/django101/web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Class_based_views_project/django101/django101/web/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Class_based_views_project/django101/django101/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Class_based_views_project/django101/django101/web/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django101/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../django101/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django101/django101/tasks/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django101/django101/tasks/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django101/django101/tasks/migrations/0002_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django101/django101/tasks/migrations/0002_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django101/django101/tasks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django101/django101/tasks/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employees_app/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../employees_app/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employees_app/employees_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../employees_app/employees_app/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +32,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "vasetousa"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vasetousa&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -41,25 +54,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Django Server.Petstagram.executor": "Run",
-    "Django Server.Unnamed.executor": "Run",
-    "Python.settings.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Vasil/Python_2023/Django_re-visit_23-24/Petstagram",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Django Server.Petstagram.executor&quot;: &quot;Run&quot;,
+    &quot;Django Server.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.settings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vasil/Python_2023/Django_re-visit_23-24/Petstagram&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Petstagram" type="Python.DjangoServer" factoryName="Django server">
       <module name="Petstagram" />
@@ -106,6 +119,7 @@
       <workItem from="1707577079925" duration="351000" />
       <workItem from="1707577659751" duration="104000" />
       <workItem from="1708988811895" duration="725000" />
+      <workItem from="1710165473945" duration="760000" />
     </task>
     <task id="LOCAL-00001" summary="finished project, function based views">
       <option name="closed" value="true" />
