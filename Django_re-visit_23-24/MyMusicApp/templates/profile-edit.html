@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block page_content %}
+    
+<section class="createPage">
+    <div class="container-inline">
+        <div class="profileText">
+            <!-- Profile Info Form -->
+            <section id="registerPage">
+                <form method="POST">
+                    <fieldset>
+                        <legend>Profile</legend>
+                        {% csrf_token %}
+                        {{ profile_form }}
+                        <!-- Button to Create Profile -->
+                        <button type="submit" class="register">Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+        </div>
+    </div>
+</section>
+{% endblock %}
