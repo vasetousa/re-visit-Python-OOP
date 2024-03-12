@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block page_content %}
+
+    <hr>
+    <h3>
+        {% for todo in Todos %}
+            <div>
+            <li>
+                 <a href="{% url 'todo details' todo.pk %}" > {{ todo.title }} </a>
+            </li>
+
+            </div>
+        {% endfor %}
+    </h3>
+
+{% endblock %}
