@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Update_at_3_31_2024_10_59_PM_[Changes]" date="1711918748857" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_31_2024_10_59_PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 3/31/2024 10:59 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="../Django_re-visit_23-24/Petstagram/.idea/dataSources/8cc00f64-4b71-4704-8662-2311c49e6712/storage_v2/_src_/schema/main.uQUzAA.meta" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../Django_re-visit_23-24/Petstagram/.idea/dataSources/e887e66c-404a-4241-8bd1-67b529dc92b0/storage_v2/_src_/schema/main.uQUzAA.meta" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../Django_re-visit_23-24/Petstagram/Petstagram/cat.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../Django_re-visit_23-24/Petstagram/Petstagram/staticfiles/image.jpg" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>
